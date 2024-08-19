@@ -95,14 +95,14 @@ const Nav = () => {
                   className='dropdown_link'
                   onClick={() => setToggleDropdown(false)}
                 >
-                  My Profile
+                  プロフィール
                 </Link>
                 <Link
                   href='/create-prompt'
                   className='dropdown_link'
                   onClick={() => setToggleDropdown(false)}
                 >
-                  Create Prompt
+                  記録を作成する
                 </Link>
                 <button
                   type='button'
@@ -112,7 +112,7 @@ const Nav = () => {
                   }}
                   className='mt-5 w-full black_btn'
                 >
-                  Sign Out
+                  サインアウト
                 </button>
               </div>
             )}
@@ -129,7 +129,7 @@ const Nav = () => {
                   }}
                   className='black_btn'
                 >
-                  Sign in
+                  サインイン
                 </button>
               ))}
           </>
